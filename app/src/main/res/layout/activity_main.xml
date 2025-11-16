@@ -18,6 +18,7 @@
         tools:ignore="RtlHardcoded">
 
         <Button
+            android:id="@+id/team2_addNote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
@@ -49,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="还没有记录，点击右上角添加11呵呵1"
+            android:text="还没有记录，点击右上角添加记事本"
             android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>

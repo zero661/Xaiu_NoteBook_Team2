@@ -56,7 +56,7 @@
             android:layout_marginTop="20dp"
             android:background="@null"
             android:gravity="left"
-            android:hint="请输入笔记内容..."
+            android:hint="请输入笔记内容...."
             android:inputType="textMultiLine"
             android:padding="10dp"
             android:scrollbars="vertical"

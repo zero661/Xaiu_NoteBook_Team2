@@ -5,25 +5,36 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+    android:layout_marginTop="?attr/actionBarSize"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="记事本"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:gravity="right"
         android:orientation="horizontal"
         tools:ignore="RtlHardcoded">
 
-        <Button
+        <TextView
             android:id="@+id/team2_addNote"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:background="@drawable/btn_bg"
-            android:text="添加记事本" />
+            android:text="添加记事本"
+            android:textColor="@color/primary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -51,7 +62,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="还没有记录，点击右上角添加记事本"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="15sp" />
     </LinearLayout>
 </LinearLayout>

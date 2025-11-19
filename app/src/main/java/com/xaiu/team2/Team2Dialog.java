@@ -25,18 +25,14 @@ public class Team2Dialog {
             tvTitle.setText(title);
             tvTitle.setVisibility(View.VISIBLE);
         } else {
-            tvTitle.setVisibility(View.GONE); // 标题为null时隐藏
+            tvTitle.setVisibility(View.GONE);
         }
         tvMessage.setText(message);
 
         int orangeColor = Color.parseColor("#ffa500");
         tvTitle.setTextColor(orangeColor);
-        // tvMessage.setTextColor(orangeColor);
         tvConfirm.setTextColor(orangeColor);
-        // tvCancel.setTextColor(orangeColor);
 
-        // 创建弹窗实例
-        // 创建弹窗实例
         AlertDialog dialog = builder.create();
         dialog.setCancelable(false); // 点击外部不关闭弹窗
 
@@ -57,7 +53,6 @@ public class Team2Dialog {
             }
         });
 
-        // 显示弹窗
         dialog.show();
     }
 }
